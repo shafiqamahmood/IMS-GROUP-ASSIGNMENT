@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Corporate Sales</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+
+</head>
+
+<body>
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  	<button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+    <a href="index.html" class="w3-bar-item w3-button">Home</a>
+    <a href="homemenu.html" class="w3-bar-item w3-button">Menu</a>
+  	<a href="business.html" class="w3-bar-item w3-button">Business</a>
+  	<a href="surprisedelivery.html" class="w3-bar-item w3-button">Surprise Delivery</a>
+  	<div class="w3-dropdown-hover"><a href="services.html" class="w3-bar-item w3-button">Services</a></div>
+
+  	<div class="w3-sidebar w3-bar-block w3-border-right w3-light-grey" >
+  	<div class="w3-dropdown-hover">
+  		<button class="w3-button">
+     	<i class="fa fa-caret-down"></i>
+    	</button>
+    	<div class="w3-dropdown-content w3-bar-block">
+      	<a href="corporate.html" class="w3-bar-item w3-button">Corporate Sales</a>
+      	<a href="mobile.html" class="w3-bar-item w3-button">Mobile Apps</a>
+      	<a href="faq.html" class="w3-bar-item w3-button">FAQ</a>
+      	<a href="contact.html" class="w3-bar-item w3-button">Contact Us</a>
+      	</div>
+    </div>
+	</div>
+</div>
+
+<div class="w3-black">
+  <button class="w3-button w3-white w3-xlarge" onclick="w3_open()">☰</button>
+
+ <div class="w3-container w3-black w3-transparent w3-text-white" align="center">
+   <h1>D'la Cake House</h1>
+</div>
+</div> 
+
+
+<div class="w3-container w3-lobster">
+	<p class="w3-xxxlarge w3-text-black"><u>Corporate Sales</u></p>
+</div>
+
+
+<div class="w3-container" style="padding:10px 16px" id="contact">
+	<form>
+  <label for="cname">Company Name</label>
+  <input type="text" id="cname" name="cname">
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name">
+  <label for="mail">Email</label>
+  <input type="text" id="mail" name="mail">
+  <label for="cno">Contact No</label>
+  <input type="text" id="cno" name="cno">
+  <label for="voucher">Type of Voucher</label>
+  <input type="text" id="voucher" name="voucher">
+
+  	<div class="w3-bar-block w3-border-right w3-black">
+  	<div class="w3-dropdown-hover">
+  		<button class="w3-button">
+     	<i class="fa fa-caret-down"></i>
+    	</button>
+    	<div class="w3-dropdown-content w3-bar-block">
+      	<a class="w3-bar-item w3-button">Cake Voucher</a>
+      	<a class="w3-bar-item w3-button">Paper Voucher</a>
+      	<a class="w3-bar-item w3-button">E-Voucher</a>
+      	<a class="w3-bar-item w3-button">Others</a>
+      	</div>
+    </div>
+	</div>
+
+  <label for="msg">Message</label>
+  <input type="text" id="msg" name="msg"><br><br>
+
+   <button class="w3-button w3-black" type="submit">
+      <i class="fa fa-paper-plane"></i> SEND
+   </button>
+ 	</form>
+     
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+ <div style="margin-bottom" align="center">
+  <footer>
+    <p style="text-align: center; font-size: 13px">
+    Group Siti Nur Shafiqa @ All Rights Reserved. | 
+    <a href="/help/privacy-policy.html" rel="nofollow">Privacy Policy</a> | 
+    <a href="/help/terms-of-use.html" rel="nofollow">Terms of Use</a> | 
+    <a href="/help/terms-of-sale.html" rel="nofollow">Terms of Sale</a><br>
+    <br>D'La Cake House, Surprise Delivery, and Photos [to] Art are trademarks or registered trademarks of D'La Cake House Inc.
+    <br>Various aspects of this website are covered by our group.</p></footer>
+  </div>
+
+
+
+
+<style>
+	body
+  {
+    background-image: url(cake3.jpg);
+    background-size: 1400px;
+    background-size: cover;
+  }
+	
+</style>
+</body>
+</html>

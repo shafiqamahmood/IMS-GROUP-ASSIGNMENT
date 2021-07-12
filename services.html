@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Services</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  	<button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+    <a href="index.html" class="w3-bar-item w3-button">Home</a>
+    <a href="homemenu.html" class="w3-bar-item w3-button">Menu</a>
+  	<a href="business.html" class="w3-bar-item w3-button">Business</a>
+  	<a href="surprisedelivery.html" class="w3-bar-item w3-button">Surprise Delivery</a>
+    <div class="w3-dropdown-hover"><a href="services.html" class="w3-bar-item w3-button">Services</a></div>
+  	
+
+  	<div class="w3-sidebar w3-bar-block w3-border-right w3-light-grey">
+  	<div class="w3-dropdown-hover">
+  		<button class="w3-button">
+     	<i class="fa fa-caret-down"></i>
+    	</button>
+    	<div class="w3-dropdown-content w3-bar-block">
+      	<a href="corporate.html" class="w3-bar-item w3-button">Corporate Sales</a>
+      	<a href="mobile.html" class="w3-bar-item w3-button">Mobile Apps</a>
+      	<a href="faq.html" class="w3-bar-item w3-button">FAQ</a>
+      	<a href="contact.html" class="w3-bar-item w3-button">Contact Us</a>
+      	</div>
+    </div>
+	</div>
+</div>
+
+<div class="w3-black">
+  <button class="w3-button w3-white w3-xlarge" onclick="w3_open()">☰</button>
+  <div class="w3-container" align="center">
+    <h1>D'la Cake House</h1>
+  </div> 
+</div>
+
+<img src="cakebilah.jpg" alt="cake" style="width:100%">
+
+
+<div class="w3-container w3-black" align="center">
+<p>We offers you many of delicious cake</p>
+<p><i><b>Good Choice, Great Taste</p></i></b>
+</div>
+
+<div style="margin-bottom" align="center">
+  <footer>
+    <p style="text-align: center; font-size: 13px">
+    Group Siti Nur Shafiqa @ All Rights Reserved. | 
+    <a href="/help/privacy-policy.html" rel="nofollow">Privacy Policy</a> | 
+    <a href="/help/terms-of-use.html" rel="nofollow">Terms of Use</a> | 
+    <a href="/help/terms-of-sale.html" rel="nofollow">Terms of Sale</a><br>
+    <br>D'La Cake House, Surprise Delivery, and Photos [to] Art are trademarks or registered trademarks of D'La Cake House Inc.
+    <br>Various aspects of this website are covered by our group.</p></footer>
+  </div>
+
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html>
